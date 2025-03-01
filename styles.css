@@ -1,0 +1,87 @@
+/* Full-page background */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(120deg, #ff9a9e, #fad0c4); /* Soft pink gradient */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Form container */
+.form-container {
+    background: rgba(255, 255, 255, 0.9); /* Light white with transparency */
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    width: 320px; /* Slightly smaller width */
+    text-align: center;
+}
+
+/* Title styling */
+h2 {
+    color: #333;
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+
+/* Form fields alignment */
+form {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+/* Label styling */
+label {
+    font-weight: bold;
+    margin-top: 8px;
+    color: #444;
+    font-size: 14px;
+}
+
+/* Input fields with reduced size */
+input {
+    width: 95%;
+    padding: 8px;
+    margin: 5px 0 12px;
+    border: 1px solid #aaa;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+/* Submit Button */
+button {
+    width: 100%;
+    padding: 10px;
+    background: #ff758c; /* Soft pink button */
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #ff5c7b; /* Darker pink on hover */
+}
+
+/* Link Styling */
+p {
+    margin-top: 12px;
+    font-size: 13px;
+}
+
+a {
+    color: #ff758c;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
